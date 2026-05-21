@@ -46,7 +46,7 @@ export default function Pulsar3DWebsite() {
             <img
               src="/logo-pulsar3d.png"
               alt="Pulsar3D Logo"
-              className="h-14 w-auto object-contain"
+              className="h-34 w-auto object-contain"
             />
           </div>
 
@@ -279,7 +279,15 @@ export default function Pulsar3DWebsite() {
 
       <footer className="border-t border-white/10 py-8 px-8 text-center text-white/40 text-sm">
         © 2026 Pulsar3D — Impressão 3D de alta precisão.
+       
       </footer>
+       <div className="flex items-center">
+            <img
+              src="/logo-pulsar3d.png"
+              alt="Pulsar3D Logo"
+              className="h-84 w-auto object-contain"
+            />
+          </div>
     </div>
   );
 }
